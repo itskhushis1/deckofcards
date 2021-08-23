@@ -6,6 +6,7 @@ import itertools, random
 deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club']))
 
 # shuffle the cards
+
 random.shuffle(deck)
 # draw cards
 
