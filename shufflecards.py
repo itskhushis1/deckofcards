@@ -1,6 +1,7 @@
 # Python program to shuffle a deck of card
 
 # importing modules
+
 import itertools, random
 # make a deck of cards
 deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club']))
